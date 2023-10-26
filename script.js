@@ -12,7 +12,7 @@ function firstChar(text) {
 				let currChar = text[i]; 
 				if(currChar === " ")
 				{
-					continue;
+					return currChar;
 			}
 	
 		else if(currChar !== " ")
@@ -21,11 +21,10 @@ function firstChar(text) {
 	}
 }
 	}
-}
+} 
 
-  
+   
 	   
 // Do not change the code below
-
 const text = prompt("Enter text:");
-alert(firstChar(text)); 
+alert(firstChar(text));  
